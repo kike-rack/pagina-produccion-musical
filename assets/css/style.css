@@ -1,0 +1,11 @@
+.titulo {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.img-cabecera {
+    width: 100%;
+    height: 300px; /* Altura fija para pantallas grandes */
+    object-fit: cover; /* Recorta la imagen manteniendo proporciones */
+    object-position: center; /* Enfoca el centro de la imagen */
+}

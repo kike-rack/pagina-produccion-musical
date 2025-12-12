@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🎼 Fidelidad Estudio Musical 🎸</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <!-- Menú sticky-top -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"> Fidelidad Estudio 🎼 </a>
+            <!-- Botón toggler para pantallas pequeñas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Productores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sala de Grabación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Escuela</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" href="#">Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header con información principal -->
+    <header class="py-5">
+        <div class="container">
+            <div class="img-rectangular">
+
+            <img class="img-cabecera card-img-top ronded shadow" src="http://estudiodelsur.cl/wordpress/wp-content/uploads/2018/04/DSC_8508.jpg" alt="Estudios de grabación Fidelidad">
+            </div>
+
+            <h1 class="titulo text-center mb-4 text-dark">Estudio y Producción Musical</h1>
+            
+            
+        
+        <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="mb-3 text-dark">Misión</h2>
+                    <p class="lead text-dark">Arriendos de sala de grabación y ensayo. Producción y master a cargo de nuestros productores. Desde la creación, producción de tu idea, hasta la estrategia de vivir de tu talento. Fidelidad es ser fiel a tu sueño de ser un músico profesional.</p>
+                </div>
+            </div>
+    </header>
+
+    <!-- Sección de servicios con tarjetas en fila -->
+    <section class="servicios py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Nuestros Servicios</h2>
+            <div class="row g-4">
+                <!-- Tarjeta Bronce -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-dark text-light">
+                            <h5 class="mb-0">Bronce 🎙</h5>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Arriendo de sala y grabación</h5>
+                            <p class="card-text flex-grow-1">Hasta 6 horas de grabación completa. Ideal para proyectos independientes y para registro de EP</p>
+                            <p class="card-text fw-bold">$80.000</p>
+                            <a href="#" class="btn btn-primary mt-auto">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tarjeta Oro -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-warning text-white">
+                            <h5 class="mb-0">Oro 🥇</h5>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Grabación, producción y Master</h5>
+                            <p class="card-text flex-grow-1">Producción a cargo de los profesionales de nuestro estudio. Incluye grabación, producción y master: desde la idea hasta el resultado final.</p>
+                            <p class="card-text fw-bold">$100.000</p>
+                            <a href="#" class="btn btn-primary mt-auto">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tarjeta Platino -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0">Platino 💿</h5>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Producción completa y plan de marketing</h5>
+                            <p class="card-text flex-grow-1">Producimos la canción y te ofrecemos un plan de marketing para divulgar tu idea original.</p>
+                            <p class="card-text fw-bold">$200.000</p>
+                            <a href="#" class="btn btn-primary mt-auto">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section class="py-5" id="contacto">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <form action="" novalidate>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label" for="nombre">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" id="nombre" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label" for="email">Correo electrónico</label>
+                        <input type="email" class="form-control" name="email" id="email" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="mensaje" class="form-label">Escribe aquí tu mensaje...</label>
+                        <textarea class="form-control" name="mensaje" id="mensaje" rows="4" required></textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="acepto" required>
+                            <label for="acepto" class="form-check-label">He leído y acepto la política de privacidad de mis datos.</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary">Enviar</button>
+                        <button class="btn btn-outline-secondary" type="reset">Limpiar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <span>&copy; 2025. Estudio Fidelidad.</span>
+            <div class="mt-2 mt-md-0">
+                <a href="https://www.instagram.com/instituto_fidelidad/?hl=es" class="link-light me-3 text-decoration-none">Instituto Fidelidad</a>
+                <a href="#" class="link-light text-decoration-none me-3">Garantías</a>
+                <a href="#" class="link-light text-decoration-none me-3">Portafolio</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>
